@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.monday h3 {
+    color: rgb(255, 0, 0);
+}
+
+.tuesday h3 {
+    color: rgb(8, 0, 255);
+}
+
+.wednesday h3 {
+    color: rgb(0, 255, 81);
+}
+
+.thursday h3 {
+    color: rgb(0, 255, 229);
+}
+
+.friday h3 {
+    color: rgb(255, 247, 0);
+}
+li:hover {
+    background-color: black;
+}
+li:active {
+    background-color: black;
+}
+li:focus {
+    outline: 2px solid lightgreen;
+}
+li:nth-child(even) {
+    background-color: green;
+}
+li:nth-child(odd) {
+    background-color: blue;
+}
+ul:first-of-type {
+    border: 1px solid gray;
+}
+ul:last-of-type {
+    border: 1px solid gray;
+}
+ul:nth-of-type(odd) {
+    background-color: lightgoldenrodyellow;
+}
+ul:nth-of-type(even) {
+    background-color: lightyellow;
+}
+ul:not(:first-of-type) {
+    margin-top: 12px;
+}
