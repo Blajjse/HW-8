@@ -6,23 +6,23 @@ h3 {
     margin-top: 20px;
 }
 
-.monday h3 {
+.mon h3 {
     color: rgb(255, 0, 0);
 }
 
-.tuesday h3 {
+.tue h3 {
     color: rgb(8, 0, 255);
 }
 
-.wednesday h3 {
+.wed h3 {
     color: rgb(0, 255, 81);
 }
 
-.thursday h3 {
+.thur h3 {
     color: rgb(0, 255, 229);
 }
 
-.friday h3 {
+.fri h3 {
     color: rgb(255, 247, 0);
 }
 li:hover {
