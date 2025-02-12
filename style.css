@@ -5,25 +5,29 @@ body {
 h3 {
     margin-top: 20px;
 }
-
-.mon h3 {
-    color: rgb(255, 0, 0);
+.school h3:nth-child(1) {
+    color: red;
 }
-
-.tue h3 {
-    color: rgb(8, 0, 255);
+.school li:nth-child(1) {
+    color: purple;
 }
-
-.wed h3 {
-    color: rgb(0, 255, 81);
+.school h3:nth-child(2) {
+    color: blue;
 }
-
-.thur h3 {
-    color: rgb(0, 255, 229);
+.school li:nth-child(2) {
+    color: red;
 }
-
-.fri h3 {
-    color: rgb(255, 247, 0);
+.school h3:nth-child(3) {
+    color: green;
+}
+.school li:nth-child(3) {
+    color: green;
+}
+.school h3:nth-child(4) {
+    color: orange;
+}
+.school h3:nth-child(5) {
+    color: purple;
 }
 li:hover {
     background-color: black;
